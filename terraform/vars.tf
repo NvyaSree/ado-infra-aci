@@ -19,4 +19,4 @@ variable "sub_project"          { default = "0126" }
 variable "location"             { default = "uksouth" }                             # https://github.com/claranet/terraform-azurerm-regions/blob/master/regions.tf
 variable "container_image"      { default = "linuxramu/calc:2.5" }
 
-variable "dns_name_label"       { default = "calc1933" }  # Set this VARIABLE - this will be URL of application, should be unique
+variable "dns_name_label"       { default = "calc1923" }  # Set this VARIABLE - this will be URL of application, should be unique
