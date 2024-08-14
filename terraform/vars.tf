@@ -15,8 +15,8 @@ variable "specific_tags"        { default = {} }
 
 variable "main_project"         { default = "calc" }   # Set this VARIABLE - this will form  the name of RESOURCES
 
-variable "sub_project"          { default = "0190" }
+variable "sub_project"          { default = "0126" }
 variable "location"             { default = "uksouth" }                             # https://github.com/claranet/terraform-azurerm-regions/blob/master/regions.tf
 variable "container_image"      { default = "linuxramu/calc:2.5" }
 
-variable "dns_name_label"       { default = "calc1926" }  # Set this VARIABLE - this will be URL of application, should be unique
+variable "dns_name_label"       { default = "calc1933" }  # Set this VARIABLE - this will be URL of application, should be unique
