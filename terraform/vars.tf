@@ -15,7 +15,7 @@ variable "specific_tags"        { default = {} }
 
 variable "main_project"         { default = "calc" }   # Set this VARIABLE - this will form  the name of RESOURCES
 
-variable "sub_project"          { default = "01" }
+variable "sub_project"          { default = "0190" }
 variable "location"             { default = "uksouth" }                             # https://github.com/claranet/terraform-azurerm-regions/blob/master/regions.tf
 variable "container_image"      { default = "linuxramu/calc:2.5" }
 
